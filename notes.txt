@@ -1,0 +1,59 @@
+Formats matriciels :
+JPG, PNG, GIF
+
+JPG: Joint Photographic (Experts) Group, 1986.
+format de compression avec perte, utilisé habituellement pour les photos.
+
+avantages : 
+poids moindre, très rapide à upload ou download.
+compression très efficace.
+supporte le 24 bits, donc 16 million de couleurs
+
+inconvénients : perte de qualité quand on compresse l'image.
+
+GIF: Graphic Interchange Format, 1987.
+format de compression avec perte importante, utilisé pour les animations ou
+les images 8bit
+
+avantages : format d'animation, permet de mettre plusieurs images à la suite
+supporte la transparence
+
+inconvénients :
+2.4 plus volumineux  que le JPG
+n'affiche que 256 couleurs (choisies parmi 16 millions)
+
+PNG: Portable Network Graphics, 1996
+format de compressions sans perte.
+
+avantages :
+conserve une bonne qualité après compression
+supporte le 24 bits, donc 16 millions de couleurs.
+permet la transparence
+
+inconvénients : 
+poids important
+
+
+Formats vectoriel :
+SVG : Scalable Vector Graphics, 2001 développé par W3C.
+définis en texte xml. utilise le JS comme script et CSS comme style.
+
+avantages : 
+peut être édité avec un éditeur de texte ou un logiciel de dessin
+peut être agrandit ou réduit sans perte de qualité
+supporte l'animation
+le poids est le même quelque soit la taille de l'image.
+
+inconvénients :
+n'est pas adapté aux photos, avec des textures complexes
+
+
+
+
+
+
+
+
+
+
+
