@@ -1,0 +1,94 @@
+Formats matriciels :
+JPG, PNG, GIF
+
+JPG: Joint Photographic (Experts) Group, 1986.
+format de compression avec perte, utilisé habituellement pour les photos.
+
+avantages : 
+poids moindre, très rapide à upload ou download.
+compression très efficace.
+supporte le 24 bits, donc 16 million de couleurs
+
+inconvénients : perte de qualité quand on compresse l'image.
+
+GIF: Graphic Interchange Format, 1987.
+format de compression avec perte importante, utilisé pour les animations ou
+les images 8bit
+
+avantages : format d'animation, permet de mettre plusieurs images à la suite
+supporte la transparence
+
+inconvénients :
+2.4 plus volumineux  que le JPG
+n'affiche que 256 couleurs (choisies parmi 16 millions)
+
+PNG: Portable Network Graphics, 1996
+format de compressionds sans perte.
+
+avantages :
+conserve une bonne qualité après compression
+supporte le 24 bits, donc 16 millions de couleurs.
+permet la transparence
+
+inconvénients : 
+poids important
+
+
+Formats vectoriel :
+SVG : Scalable Vector Graphics, 2001 développé par W3C.
+définis en texte xml. utilise le JS comme script et CSS comme style.
+
+avantages : 
+peut être édité avec un éditeur de texte ou un logiciel de dessin
+peut être agrandit ou réduit sans perte de qualité
+supporte l'animation
+le poids est le même quelque soit la taille de l'image.
+
+inconvénients :
+n'est pas adapté aux photos, avec des textures complexes
+
+
+
+COMMENT ILS SONT UTILISES
+
+DANS QUELS CAS :
+JPG: photos
+GIF: animations, dessins ou texte
+PNG: images avec transparence, dessins ou texte
+SVG: icones, texte, dessins simples de grande taille.
+
+formats matriciels : enregistrer pour le web depuis un logiciel d'édition d'images, comme photoshop,
+puis choisir le taux de compression (de 0 à 100%) quand c'est possible.
+
+formats vectoriels : télécharger ou créer l'image dans un logiciel de dessin, puis l'enregistrer en .svg
+
+BONNES PRATIQUES d'ORGANISATION ET DE NOMMAGE:
+
+ORGANISATION:
+Garder le fichier original, faire plusieurs fichiers par cadrage.
+Ne pas créer beaucoup de sous-dossiers
+
+NOMMAGE:
+nom unique par fichier
+pas de majuscules, espaces, accents ou caractères spéciaux (sauf underscore)
+utiliser des abréviations pour raccourcir le nom
+Spécifier le sujet, type de document et usage, 
+ex: maquette_logo_globe.svg désigne : une image svg, qui est un logo représentant le globe terrestre, pour le projet Maquette.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
