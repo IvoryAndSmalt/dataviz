@@ -23,7 +23,7 @@ inconvénients :
 n'affiche que 256 couleurs (choisies parmi 16 millions)
 
 PNG: Portable Network Graphics, 1996
-format de compressions sans perte.
+format de compressionds sans perte.
 
 avantages :
 conserve une bonne qualité après compression
@@ -46,6 +46,41 @@ le poids est le même quelque soit la taille de l'image.
 
 inconvénients :
 n'est pas adapté aux photos, avec des textures complexes
+
+
+
+COMMENT ILS SONT UTILISES
+
+DANS QUELS CAS :
+JPG: photos
+GIF: animations, dessins ou texte
+PNG: images avec transparence, dessins ou texte
+SVG: icones, texte, dessins simples de grande taille.
+
+formats matriciels : enregistrer pour le web depuis un logiciel d'édition d'images, comme photoshop,
+puis choisir le taux de compression (de 0 à 100%) quand c'est possible.
+
+formats vectoriels : télécharger ou créer l'image dans un logiciel de dessin, puis l'enregistrer en .svg
+
+BONNES PRATIQUES d'ORGANISATION ET DE NOMMAGE:
+
+ORGANISATION:
+Garder le fichier original, faire plusieurs fichiers par cadrage.
+Ne pas créer beaucoup de sous-dossiers
+
+NOMMAGE:
+nom unique par fichier
+pas de majuscules, espaces, accents ou caractères spéciaux (sauf underscore)
+utiliser des abréviations pour raccourcir le nom
+Spécifier le sujet, type de document et usage, 
+ex: maquette_logo_globe.svg désigne : une image svg, qui est un logo représentant le globe terrestre, pour le projet Maquette.
+
+
+
+
+
+
+
 
 
 
